@@ -1,0 +1,53 @@
+/* Hot & Cold version 1.0 */
+/*@import url(http://reset5.googlecode.com/hg/reset.min.css);*/
+				
+	#container{
+		width: 100%;
+		padding:10px
+	}
+	#header{font-variant: small-caps;
+		font-size: 18px;
+		text-align: center;
+	}
+	#game {
+		position: relative;
+		height: 350px;
+		margin: 0 auto;
+		padding: 10px;
+		width: 180px; 
+	}
+	img {
+		text-align: center; 
+		border-bottom: 2px dashed black;
+		margin-bottom: 5px;
+	}
+	#hint {margin: 1px; font-variant: small-caps;}	
+	#box {text-align: center;}
+	#log {
+		margin-top: 15px;
+		/*border: 1px dotted red;*/
+		color: black;
+		display: inline;
+		list-style-type: none;
+		padding-right: 5px;
+	}
+	#history {
+		width:95%;
+		padding: 2px;
+	}
+	li {
+		margin:2px; 
+		text-align: center; 
+		font-size: 18px; 
+		list-style: none;
+	}
+	li:first-child {background-color: #00FF2E}
+	input {
+		text-align: center;
+		border: 1px solid black;
+		margin: 10px;
+		text-align: center;
+		height: 35px;
+		font-family: sans-serif;
+		font-size: 25px;
+	}

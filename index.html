@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta name="author" content="Pete McLaughlin">
+		<meta name="keywords" content="HTML,CSS, and JavaScript">
+		<meta name="description" content="Hor ot Cold: A Thinkful Assignment">
+		<meta charset="UTF-8">
+
+		<title>Hot 'n' Cold: List & Temp V2</title>
+		<link rel="stylesheet" href="main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="game">
+				<div id="header">
+					<img src="logo.png" alt="Hot 'n' cold Logo">
+                    <div id="box">
+                    guess a random number
+                    	<input type="text" id="player" size="7" maxlength="3" autocomplete="off" placeholder="1 ~ 100"></div>
+					</div>
+					<div id="msg" style="display:none"></div>
+					<div id="history">
+						<ul id="log"></ul>
+					</div>				
+			</div>
+		</div>
+		<script src="application.js"></script>
+	</body>
+</html>
